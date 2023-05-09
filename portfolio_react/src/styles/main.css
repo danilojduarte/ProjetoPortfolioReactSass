@@ -1,10 +1,11 @@
 /* Importando aqruivo */
-    /* @use 'variables' */
+@import url('./variables.css');
+@import url('./mixins.css');
     
     
 * {
     padding: 0;
     margin: 0;
-    font-family: ;
     box-sizing: border-box;
+    font-family: 'Helvetica';
 }
