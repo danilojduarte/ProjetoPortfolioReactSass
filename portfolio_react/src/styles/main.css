@@ -9,3 +9,16 @@
     box-sizing: border-box;
     font-family: 'Helvetica';
 }
+
+body {
+    background-color: var(--body-g-color);
+    color: white;
+}
+
+
+body > a > svg {
+
+
+
+    transition: .4s;
+}
