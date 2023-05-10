@@ -12,6 +12,6 @@
 
 
     /* Declarações de medidas */
-    --container-border-radius: 10px
+    --container-border-radius: 10px;
     --card-border-radius: 5px;
 }

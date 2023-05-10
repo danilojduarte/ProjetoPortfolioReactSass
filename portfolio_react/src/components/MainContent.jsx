@@ -1,6 +1,11 @@
+
+import '../styles/components/maincontent.css';
+
 const MainContent = () => {
     return (
-        <div>MainContent</div>
+        <main id='main-content'>
+            MainContent
+        </main>
     )
 }
 
