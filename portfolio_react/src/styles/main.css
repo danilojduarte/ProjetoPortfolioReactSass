@@ -16,9 +16,6 @@ body {
 }
 
 
-body > a > svg {
-
-
-
+a, svg {
     transition: .4s;
 }
