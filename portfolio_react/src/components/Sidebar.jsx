@@ -1,6 +1,14 @@
 const Sidebar = () => {
     return (
-        <div>Sidebar</div>
+        <aside id="sidebar">
+            <p>imagem</p>
+            <p className="title">Desenvolvedor</p>
+            <p>Redes Sociais</p>
+            <p>Informaçôes para contato</p>
+            <a href="#" className="btn">
+                Download Currículo
+            </a>
+        </aside>
     )
 }
 

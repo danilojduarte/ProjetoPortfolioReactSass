@@ -12,7 +12,10 @@
 
 #portfolio h1 {
     width: 100%;
-    color: red;
     font-size: 5rem;
     margin-bottom: 4rem;
+
+    background: var(--gradiente-2-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
