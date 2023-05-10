@@ -2,6 +2,7 @@ import Avatar from '../img/img-perfil.jpg';
 
 import "../styles/components/sidebar.css";
 
+
 const Sidebar = () => {
     return (
         <aside id="sidebar">

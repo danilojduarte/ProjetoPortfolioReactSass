@@ -1,0 +1,8 @@
+@import url('../variables.css');
+
+
+#main-content {
+    background-color: var(--bg-color);
+    flex: 2 1 0;
+    border-radius: var(--container-border-radius);
+}

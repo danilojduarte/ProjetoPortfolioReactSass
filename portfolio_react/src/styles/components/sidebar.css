@@ -18,3 +18,11 @@ img {
     position: absolute;
     top: -3rem;
 }
+
+.title {
+    color: var(--text-color-secondary);
+    background-color: var(--bg-color-secondary);
+    border-radius: var(--card-border-radius);   
+    margin-top: 12rem;
+    padding: .8rem 1.2rem;
+}
