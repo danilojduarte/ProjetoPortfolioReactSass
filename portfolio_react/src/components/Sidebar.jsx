@@ -1,7 +1,7 @@
 import Avatar from '../img/img-perfil.jpg';
 
 import "../styles/components/sidebar.css";
-import SocialNetWorks from './SocialNetWorks';
+
 
 
 const Sidebar = () => {
