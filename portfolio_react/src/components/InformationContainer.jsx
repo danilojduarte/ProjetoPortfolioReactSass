@@ -8,6 +8,7 @@ const InformationContainer = () => {
     return (
 
         <section id="information">
+
             <div className="info-card">
                 <AiFillPhone id="phone-icon" />
                 <div>
@@ -15,13 +16,15 @@ const InformationContainer = () => {
                     <p>(84) 98791-5406</p>
                 </div>
             </div>
+
             <div className="info-card">
                 <AiOutlineMail id="email-icon" />
-                <di v>
+                <div>
                     <h3>E-mail</h3>
                     <p>danilojoseduarte@gmail.com</p>
-                </di>
+                </div>
             </div>
+
             <div className="info-card">
                 <AiFillEnvironment id="pin-icon" />
                 <div>
@@ -29,6 +32,8 @@ const InformationContainer = () => {
                     <p>Natal-RN</p>
                 </div>
             </div>
+            
+
         </section>
     )
 };
