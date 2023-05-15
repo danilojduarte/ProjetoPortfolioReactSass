@@ -3,7 +3,7 @@
 #information {
     display: flex;
     align-items: center;
-    justify-content: center;
+        
     flex-direction: column;
 
     background-color: var(--bg-color-secondary);
@@ -19,20 +19,29 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
+
     padding-bottom: .8rem;
     margin-bottom: .8rem;
     border-bottom: 1px solid #444;
+
     width: 100%;
 }
 
 .info-card h3 {
-
+    color: var(--bg-color);
+    font-size: .8rem;
+    margin-bottom: .5rem;
 }
 
 .info-card p {
-
+    color: var(--text-color);
+    font-weight: bold;
 }
 
 .info-card svg {
-    
+    background-color: var(--bg-color);
+    padding: .4rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: var(--card-border-radius);
 }
