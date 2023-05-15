@@ -3,7 +3,7 @@
 #information {
     display: flex;
     align-items: center;
-        
+    justify-content: center;
     flex-direction: column;
 
     background-color: var(--bg-color-secondary);
@@ -17,7 +17,7 @@
 .info-card {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:start;
     gap: 1rem;
 
     padding-bottom: .8rem;
@@ -28,7 +28,7 @@
 }
 
 .info-card h3 {
-    color: var(--bg-color);
+    color: var(--text-color-secondary);
     font-size: .8rem;
     margin-bottom: .5rem;
 }
@@ -44,4 +44,16 @@
     width: 2rem;
     height: 2rem;
     border-radius: var(--card-border-radius);
+}
+
+#phone-icon {
+    color: #e93b81;
+}   
+
+#email-icon {
+    color: #6ab5b9;
+}
+
+#pin-icon {
+    color: #c17ceb;
 }
