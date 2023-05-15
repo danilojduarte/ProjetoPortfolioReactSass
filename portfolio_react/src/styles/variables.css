@@ -24,3 +24,12 @@
     text-decoration: none;
     border-radius: 3rem;
 }
+
+/* DECLARACAO DO CSS MIXINS
+    ALINHAMENTO CENTRO GERAL
+*/
+.teste {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

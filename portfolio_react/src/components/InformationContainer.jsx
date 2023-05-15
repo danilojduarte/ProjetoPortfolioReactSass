@@ -1,4 +1,4 @@
-import { AiFillPhone, AiOutlineMail, AiFillEnviroment } from "react-icons/ai";
+import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from "react-icons/ai";
 
 
 import '../styles/components/informationcontainer.css';
@@ -17,13 +17,13 @@ const InformationContainer = () => {
             </div>
             <div className="info-card">
                 <AiOutlineMail id="email-icon" />
-                <div>
+                <di v>
                     <h3>E-mail</h3>
                     <p>danilojoseduarte@gmail.com</p>
-                </div>
+                </di>
             </div>
             <div className="info-card">
-                <AiFillEnviroment id="pin-icon" />
+                <AiFillEnvironment id="pin-icon" />
                 <div>
                     <h3>Localização</h3>
                     <p>Natal-RN</p>
