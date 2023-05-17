@@ -6,3 +6,42 @@
     flex: 2 1 0;
     border-radius: var(--container-border-radius);
 }
+
+section #about-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: var( --text-color);
+    font-size: 2.2rem;
+    margin-bottom: 1.3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+h2::after {
+    content: "";
+    background: #dd2476;
+    height: 3px;
+    width: 30%;
+}
+
+#about-container p {
+    color: var(--text-color-secondary);
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+}
+
+#about-container .btn {
+    padding: 1rem 1.2rem;
+    color: var(--text-color);
+    background-color: var(--gradiente-2-color);
+    text-decoration: none;
+    border-radius: 3rem;
+
+    align-self: start;
+}
