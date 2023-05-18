@@ -6,9 +6,9 @@ const ProjetosContainer = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eligendi tempora ad iure sunt, accusamus quo nesciunt eveniet voluptates totam consequatur, repudiandae deleniti debitis quas animi nemo. Optio, unde deserunt!
             </p>
 
-            <a href="#" className="projetos-btn">
+            {/* <a href="#" className="btn">
                 Visualizar Projetos
-            </a>
+            </a> */}
 
         </section>
     );
