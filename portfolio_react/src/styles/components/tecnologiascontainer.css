@@ -2,6 +2,7 @@
 
 .tecnologias-container {
     margin-bottom: 1rem;
+    padding: 2rem;
 }
 
 .tecnologias-grid {
@@ -20,4 +21,37 @@
     border: 1px solid #333;
     width: 45%;
     border-radius: var(--card-border-radius);
+}
+
+.tecnologias-card h3 {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.tecnologias-card svg {
+    font-size: 6rem;
+}
+
+#html svg {
+    color: #E44D26;
+}
+
+#css svg {
+    color: #E44D26;
+}
+
+#js svg {
+    color: #E44D26;
+}
+
+#node svg {
+    color: #E44D26;
+}
+
+#mysql svg {
+    color: #E44D26;
+}
+
+#react svg {
+    color: #E44D26;
 }
