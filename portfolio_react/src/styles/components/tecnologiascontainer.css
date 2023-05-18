@@ -1,0 +1,23 @@
+@import url('../variables.css');
+
+.tecnologias-container {
+    margin-bottom: 1rem;
+}
+
+.tecnologias-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.tecnologias-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #333;
+    width: 45%;
+    border-radius: var(--card-border-radius);
+}

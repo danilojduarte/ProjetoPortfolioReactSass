@@ -20,7 +20,21 @@ const tecnoligias = [
 
 const TecnologiasContainer = () => {
     return (
-        <div>TecnologiasContainer</div>
+        <section className='tecnologias-container'>
+            <div className="tecnologias-grid">
+                {tecnoligias.map((tech) => (
+                    <div className="tecnologias-card" id={tech.id} key={tech.id}>
+                        {tech.icon}
+                        <div className="tecnoligias-info">
+                            <h3>{tech.name}</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellat.
+                            </p>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </section>
     );
 };
 
